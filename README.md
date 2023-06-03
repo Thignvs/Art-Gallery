@@ -11,7 +11,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Page](https://github.com/Thignvs/Art-Gallery).
+- Live Site URL: [Live Page](https://thignvs.github.io/Art-Gallery/).
 
 
 ### Built with
