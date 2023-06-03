@@ -1,0 +1,145 @@
+:root{
+    --Gold: #D5966C;
+    --Almost-black: #151515;
+    --Dark-Gray: #444444;
+    --White: #FFFFFF;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 400px;
+}
+#locheader{
+    display: flex;
+    background-image: url(./assets/mobile/image-map@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 500px;
+}
+.button__text{
+    display: flex;
+    text-decoration: none;
+}
+.button__big{
+    padding: 0;
+    margin: 0;
+    transition: all ease 0.3s;
+    background-color: var(--Almost-black);
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 80px;
+    color: var(--White);
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+    cursor: pointer;
+    font-weight: 900;
+}
+.button__small{
+    height: 80px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    border: none;
+    background-color: var(--Gold);
+    width: 70px;
+    transition: ease 0.5s;
+}
+.card__black{
+    padding: 50px 20px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 900;
+    background-color: var(--Almost-black);
+}
+.card__black h1{
+    color: var(--White);
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.card__black h2{
+    color: var(--Gold);
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.card__black p{
+    font-family: 'Outfit', sans-serif;
+    color: var(--White);
+    font-weight: 200;
+    font-size: 18px;
+}
+footer{
+    background-color: var(--Gold);
+    padding: 20px 20px;
+}
+footer h3{
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 22px;
+    max-width: 100px;
+    font-weight: 900;
+}
+footer p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+.socials img{
+    filter: invert(1);
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+/* --------------------------- MEDIUM DEVICES ------------------------------ */
+@media screen and (min-width: 800px) {
+    body{
+    max-width: 768px;
+    }
+    #locheader{
+        background-image: url(./assets/tablet/image-map@2x.png);
+    }
+    .button__text{
+        margin-left: 50px;
+    }
+    .card__black{
+        display: flex;
+        justify-content: space-around;
+    }
+    .tittle{
+        max-width: 50%;
+    }
+    .subtittle{
+        max-width: 50%;
+    }
+    .footercard{
+        display: flex;
+        justify-content: center;
+    }
+    .footer__text{
+        display: flex;
+        align-items: center;
+        max-width: 80%
+    }
+    .left{
+        margin: 0 50px;
+    }
+    .mid{
+        max-width: 50%;
+    }
+    .socials{
+        align-self: center;
+        max-width: 30%;
+    }
+}
+
+/* ----------------------------------------- DESKTOPS ------------------------------------ */
+
+@media screen and (min-width: 1281px) {
+    body{
+    max-width: 1440px;
+    }
+    #locheader{
+        background-image: url(./assets/desktop/image-map@2x.png);
+    }
+}
